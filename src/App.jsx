@@ -15,8 +15,8 @@ function App() {
 
   return (
     <div className="container">
-      <img src="./assets/top.png" className={!gameStarted ? 'top-img' : 'top-img-quiz'} />
-      <img src="./assets/bottom.png" className={!gameStarted ? 'bottom-img' : 'bottom-img-quiz'} />
+      <img src="assets/top.png" className={!gameStarted ? 'top-img' : 'top-img-quiz'} />
+      <img src="assets/bottom.png" className={!gameStarted ? 'bottom-img' : 'bottom-img-quiz'} />
       {!gameStarted ?
         <StartScreen
           gameStarted={startGame}
